@@ -1,0 +1,187 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #201010;
+  color: #856a6a;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 2000px;
+}
+
+.container {
+  position: relative;
+}
+
+.elemento {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Cabeçalho */
+header {
+  background-color: #000000;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding: 20px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  border-bottom: 2px solid #311818; /* Cabeçalho parte inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.897); /* Sombra */
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* biografia da banda */
+.bio {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* discografia */
+.discografia {
+  text-align: center;
+  padding: 20px;
+}
+
+.album {
+  display: inline-block;
+  width: calc(25% - 15px);
+  margin: 0 15px 20px 15px;
+  text-align: center;
+}
+
+.album img {
+  max-width: 60%;
+  height: auto;
+  border: 5px solid black
+}
+
+.Video {
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 20px 0; 
+  text-align: center;
+}
+
+/* Datas da turnê */
+.turne {
+  padding: 20px;
+  text-align: center;
+}
+
+.turne ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.turne li {
+  margin-bottom: 10px;
+}
+
+/* Fromulario de contato */
+.contato {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #311818; /* Cabeçalho parte inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.897); /* Sombra */
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  border-bottom: 2px solid #311818; /* Cabeçalho parte inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.897); /* Sombra */
+}
+
+/* links */
+a {
+  color: #f0e8e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#img1{
+  transition: all 0.5s linear;
+}
+
+#img1:hover{
+  scale: 1.2;
+}
+
+#img2{
+  transition: all 0.5s linear;
+}
+
+#img2:hover{
+  scale: 1.2;
+}
+
+#img3{
+  transition: all 0.5s linear;
+}
+
+#img3:hover{
+  scale: 1.2;
+}
+
+#video1{
+  transition: all 0.5s linear;
+}
+
+#video1:hover{
+  scale: 1.2;
+}
